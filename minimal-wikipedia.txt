@@ -101,8 +101,10 @@ en.wikipedia.org##.mwe-popups .mwe-popups-extract:style(margin-bottom: 16px !imp
 ! It's 215 by 176 and ideally removing the gear would let us set it to 215 by 215 but it causes gaps after the preview image, so one less line (20) + 1 extra pixel since 176 seems to have it
 en.wikipedia.org##.mwe-popups.mwe-popups-is-tall .mwe-popups-extract:style(height: 196px !important;)
 
-! Make red links normal color
-en.wikipedia.org##a.new:style(color: rgb(32, 33, 34) !important;)
+! Make red links normal color and un-clickable
+! This doesn't work perfectly, you can't start selecting text on a red link
+en.wikipedia.org##a.new:style(color: rgb(32, 33, 34) !important; cursor: text !important;)
+en.wikipedia.org##a.new:active:style(pointer-events: none !important;)
 
 ! Sans-serif headers
 en.wikipedia.org##.mw-body h1:style(font-family: sans-serif !important)
