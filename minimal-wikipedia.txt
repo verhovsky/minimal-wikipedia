@@ -46,7 +46,6 @@ en.wikipedia.org##html:style(background-color: white !important;)
 en.wikipedia.org##body:style(background-color: white !important;)
 
 en.wikipedia.org###mw-content-text:style(margin-top: 0px !important;)
-en.wikipedia.org###xtools
 en.wikipedia.org##div.navbox
 en.wikipedia.org##.sidebar-navbar
 en.wikipedia.org##.catlinks
