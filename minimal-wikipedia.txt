@@ -1,31 +1,28 @@
 ! Edit button
-en.wikipedia.org##.mw-editsection
-en.wikipedia.org##.mw-editsection-like
+wikipedia.org##.mw-editsection
+wikipedia.org##.mw-editsection-like
 ! "needs additional citations for verification" boxes, etc
-en.wikipedia.org##.ambox
-en.wikipedia.org##
-en.wikipedia.org##
-en.wikipedia.org##
+wikipedia.org##.ambox
 !, .sistersitebox, .toc, .hatnote, .mw-ui-button, .metadata
 
-en.wikipedia.org##div.vector-header-container
-en.wikipedia.org##.biota.infobox .plainlinks
-en.wikipedia.org##.vector-page-titlebar
-en.wikipedia.org##.vector-page-toolbar
-en.wikipedia.org##.vector-body-before-content
-en.wikipedia.org###contentSub
-en.wikipedia.org##.vector-sitenotice-container
-en.wikipedia.org###vector-dark-mode-launch-banner
+wikipedia.org##div.vector-header-container
+wikipedia.org##.biota.infobox .plainlinks
+wikipedia.org##.vector-page-titlebar
+wikipedia.org##.vector-page-toolbar
+wikipedia.org##.vector-body-before-content
+wikipedia.org###contentSub
+wikipedia.org##.vector-sitenotice-container
+wikipedia.org###vector-dark-mode-launch-banner
 
 ! grey boxes around inline images
-en.wikipedia.org##figure[typeof~="mw:File/Thumb"]:style(border: none !important; background-color: #ffffff !important;)
-en.wikipedia.org##figure[typeof~="mw:File/Thumb"] > a > img:style(border: none !important; background-color: #ffffff !important;)
-en.wikipedia.org##figure[typeof~="mw:File/Thumb"] > figcaption:style(border: none !important; background-color: #ffffff !important; padding-left: 3px !important; padding-right: 3px !important;)
+wikipedia.org##figure[typeof~="mw:File/Thumb"]:style(border: none !important; background-color: #ffffff !important;)
+wikipedia.org##figure[typeof~="mw:File/Thumb"] > a > img:style(border: none !important; background-color: #ffffff !important;)
+wikipedia.org##figure[typeof~="mw:File/Thumb"] > figcaption:style(border: none !important; background-color: #ffffff !important; padding-left: 3px !important; padding-right: 3px !important;)
 ! Image icon next to images...
-en.wikipedia.org##figure[typeof~='mw:File/Thumb'] > .mw-file-description::after,figure[typeof~='mw:File/Thumb'] > .mw-file-magnify::after, .mw-content-ltr figure[typeof~='mw:File/Thumb'] > .mw-file-description::after,.mw-content-ltr figure[typeof~='mw:File/Thumb'] > .mw-file-magnify::after, .magnify a:style(background-image: none !important)
+wikipedia.org##figure[typeof~='mw:File/Thumb'] > .mw-file-description::after,figure[typeof~='mw:File/Thumb'] > .mw-file-magnify::after, .mw-content-ltr figure[typeof~='mw:File/Thumb'] > .mw-file-description::after,.mw-content-ltr figure[typeof~='mw:File/Thumb'] > .mw-file-magnify::after, .magnify a:style(background-image: none !important)
 
-en.wikipedia.org##.reference
-en.wikipedia.org##.mw-references-wrap, .reflist, .refbegin
+wikipedia.org##.reference
+wikipedia.org##.mw-references-wrap, .reflist, .refbegin
 ! Hide everything after the first unncessary section
 !en.wikipedia.org##h2:has(#See_also), h2:has(#See_also) ~*, h3:has(#See_also), h3:has(#See_also) ~*, div.mw-heading:has(#See_also), div.mw-heading:has(#See_also) ~*
 en.wikipedia.org##h2:has(#Notes), h2:has(#Notes) ~*, h3:has(#Notes), h3:has(#Notes) ~*, div.mw-heading:has(#Notes), div.mw-heading:has(#Notes) ~*
@@ -42,81 +39,81 @@ en.wikipedia.org##h2:has(#Sources), h2:has(#Sources) ~*, h3:has(#Sources), h3:ha
 en.wikipedia.org##h2:has(#Bibliography), h2:has(#Bibliography) ~*, h3:has(#Bibliography), h3:has(#Bibliography) ~*, div.mw-heading:has(#Bibliography), div.mw-heading:has(#Bibliography) ~*
 
 ! correct color when scrolling past end of page
-en.wikipedia.org##html:style(background-color: white !important;)
-en.wikipedia.org##body:style(background-color: white !important;)
+wikipedia.org##html:style(background-color: white !important;)
+wikipedia.org##body:style(background-color: white !important;)
 
-en.wikipedia.org###mw-content-text:style(margin-top: 0px !important;)
-en.wikipedia.org##div.navbox
-en.wikipedia.org##.sidebar-navbar
-en.wikipedia.org##.catlinks
+wikipedia.org###mw-content-text:style(margin-top: 0px !important;)
+wikipedia.org##div.navbox
+wikipedia.org##.sidebar-navbar
+wikipedia.org##.catlinks
 ! this doesn't work well because it doesn't remove the leading space or trailing period
 !en.wikipedia.org##[href^="/wiki/Wikipedia:FAQ/Categorization#Why_might_a_category_list_not_be_up_to_date"]
 
-en.wikipedia.org##.ext-phonos-attribution
+wikipedia.org##.ext-phonos-attribution
 !||upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Interactive_icon.svg/*px-Interactive_icon.svg.png$image
 
 ! External link icon
-en.wikipedia.org##.mw-parser-output a.external:style(background-image: none !important; padding-right: 0em !important;)
-!||en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/link-external-small-ltr-progressive.svg
+wikipedia.org##.mw-parser-output a.external:style(background-image: none !important; padding-right: 0em !important;)
+!||wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/link-external-small-ltr-progressive.svg
 ! Planet icon next to coordinates
-en.wikipedia.org##.noprint.wmamapbutton
+wikipedia.org##.noprint.wmamapbutton
 
 ! "Photograph your local culture" notice
 mediawiki.org,wikibooks.org,wikidata.org,wikifunctions.org,wikimedia.org,wikinews.org,wikipedia.org,wikiquote.org,wikisource.org,wikiversity.org,wikivoyage.org,wiktionary.org###siteNotice
 ! Padding before article start
-en.wikipedia.org##p:has(span.geo-inline-hidden)
-en.wikipedia.org##p:has(span.anchor)
+wikipedia.org##p:has(span.geo-inline-hidden)
+wikipedia.org##p:has(span.anchor)
 ! Padding after article end
-en.wikipedia.org##div.vector-column-start
+wikipedia.org##div.vector-column-start
 ! Footer
-en.wikipedia.org##.mw-footer-container
+wikipedia.org##.mw-footer-container
 
-en.wikipedia.org##.noprint.p-current-events-news-browser.hlist
+wikipedia.org##.noprint.p-current-events-news-browser.hlist
 ! https://en.wikipedia.org/wiki/Portal:Current_events
-en.wikipedia.org##.editlink
+wikipedia.org##.editlink
 en.wikipedia.org##[href="/wiki/Portal:Current_events/Edit_instructions"]
 en.wikipedia.org##[href="/wiki/Wikipedia:In_the_news/Candidates"]
-en.wikipedia.org##.smallcaps > .center > b
-en.wikipedia.org###sister-projects-list
+wikipedia.org##.smallcaps > .center > b
+wikipedia.org###sister-projects-list
 
 ! [V T E]
-en.wikipedia.org##div.navbar.plainlinks.hlist.navbar-mini
+wikipedia.org##div.navbar.plainlinks.hlist.navbar-mini
 
 ! [example needed]
-en.wikipedia.org##.Inline-Template.noprint
+wikipedia.org##.Inline-Template.noprint
 
 ! "[fullscreen map]"
-en.wikipedia.org##.mw-kartographer-link.mw-kartographer-maplink
+wikipedia.org##.mw-kartographer-link.mw-kartographer-maplink
 
 ! Copies of article title
-en.wikipedia.org##.infobox-above
-!en.wikipedia.org##.summary.infobox-title
-en.wikipedia.org##.summary
-en.wikipedia.org##.fn.infobox-title
+wikipedia.org##.infobox-above
+!wikipedia.org##.summary.infobox-title
+wikipedia.org##.summary
+wikipedia.org##.fn.infobox-title
 
 ! Hover article preview
-en.wikipedia.org##.mwe-popups footer
-en.wikipedia.org##.mwe-popups .mwe-popups-extract:style(margin-bottom: 16px !important)
+wikipedia.org##.mwe-popups footer
+wikipedia.org##.mwe-popups .mwe-popups-extract:style(margin-bottom: 16px !important)
 ! It's 215 by 176 and ideally removing the gear would let us set it to 215 by 215 but it causes gaps after the preview image, so one less line (20) + 1 extra pixel since 176 seems to have it
-en.wikipedia.org##.mwe-popups.mwe-popups-is-tall .mwe-popups-extract:style(height: 196px !important;)
+wikipedia.org##.mwe-popups.mwe-popups-is-tall .mwe-popups-extract:style(height: 196px !important;)
 
 ! Make red links normal color and un-clickable
 ! This doesn't work perfectly, you can't start selecting text on a red link
-en.wikipedia.org##a.new:style(color: rgb(32, 33, 34) !important; cursor: text !important;)
-en.wikipedia.org##a.new:active:style(pointer-events: none !important;)
+wikipedia.org##a.new:style(color: rgb(32, 33, 34) !important; cursor: text !important;)
+wikipedia.org##a.new:active:style(pointer-events: none !important;)
 
 ! Sans-serif headers
-en.wikipedia.org##.mw-body h1:style(font-family: sans-serif !important)
-en.wikipedia.org##.mw-body .mw-heading1:style(font-family: sans-serif !important)
-en.wikipedia.org##.mw-body-content h1:style(font-family: sans-serif !important)
-en.wikipedia.org##.mw-body-content .mw-heading1:style(font-family: sans-serif !important)
-en.wikipedia.org##.mw-body-content h2:style(font-family: sans-serif !important)
-en.wikipedia.org##.mw-body-content .mw-heading2:style(font-family: sans-serif !important)
+wikipedia.org##.mw-body h1:style(font-family: sans-serif !important)
+wikipedia.org##.mw-body .mw-heading1:style(font-family: sans-serif !important)
+wikipedia.org##.mw-body-content h1:style(font-family: sans-serif !important)
+wikipedia.org##.mw-body-content .mw-heading1:style(font-family: sans-serif !important)
+wikipedia.org##.mw-body-content h2:style(font-family: sans-serif !important)
+wikipedia.org##.mw-body-content .mw-heading2:style(font-family: sans-serif !important)
 
 ! Media viewer when clicking an image
 ! Permission details
-en.wikipedia.org##.mw-mmv-permission-box.mw-mmv-info-box
+wikipedia.org##.mw-mmv-permission-box.mw-mmv-info-box
 ! About media viewer link
-en.wikipedia.org##.mw-mmv-about-links
+wikipedia.org##.mw-mmv-about-links
 ! buttons next to image
-en.wikipedia.org##.mw-mmv-fullscreen, .mw-mmv-options-button, .mw-mmv-download-button, .mw-mmv-reuse-button
+wikipedia.org##.mw-mmv-fullscreen, .mw-mmv-options-button, .mw-mmv-download-button, .mw-mmv-reuse-button
