@@ -50,7 +50,7 @@ en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Bibliography)
 en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Bibliography) ~*
 
 ! Spanish
-es.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Notas) ~*
+es.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Notas)
 es.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Notas) ~*
 es.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Referencias)
 es.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Referencias) ~*
