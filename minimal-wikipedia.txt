@@ -24,19 +24,36 @@ wikipedia.org##figure[typeof~='mw:File/Thumb'] > .mw-file-description::after,fig
 wikipedia.org##.reference
 wikipedia.org##.mw-references-wrap, .reflist, .refbegin
 ! Hide everything after the first unncessary section
-!en.wikipedia.org##h2:has(#See_also), h2:has(#See_also) ~*, h3:has(#See_also), h3:has(#See_also) ~*, div.mw-heading:has(#See_also), div.mw-heading:has(#See_also) ~*
-en.wikipedia.org##h2:has(#Notes), h2:has(#Notes) ~*, h3:has(#Notes), h3:has(#Notes) ~*, div.mw-heading:has(#Notes), div.mw-heading:has(#Notes) ~*
-en.wikipedia.org##h2:has(#References), h2:has(#References) ~*, h3:has(#References), h3:has(#References) ~*, div.mw-heading:has(#References), div.mw-heading:has(#References) ~*
-en.wikipedia.org##h2:has(#Notes_and_references), h2:has(#Notes_and_references) ~*, h3:has(#Notes_and_references), h3:has(#Notes_and_references) ~*, div.mw-heading:has(#Notes_and_references), div.mw-heading:has(#Notes_and_references) ~*
-en.wikipedia.org##h2:has(#Citations), h2:has(#Citations) ~*, h3:has(#Citations), h3:has(#Citations) ~*, div.mw-heading:has(#Citations), div.mw-heading:has(#Citations) ~*
-en.wikipedia.org##h2:has(#General_and_cited_references), h2:has(#General_and_cited_references) ~*, h3:has(#General_and_cited_references), h3:has(#General_and_cited_references) ~*, div.mw-heading:has(#General_and_cited_references), div.mw-heading:has(#General_and_cited_references) ~*
-en.wikipedia.org##h2:has(#Footnotes), h2:has(#Footnotes) ~*, h3:has(#Footnotes), h3:has(#Footnotes) ~*, div.mw-heading:has(#Footnotes), div.mw-heading:has(#Footnotes) ~*
-en.wikipedia.org##h2:has(#Further_reading), h2:has(#Further_reading) ~*, h3:has(#Further_reading), h3:has(#Further_reading) ~*, div.mw-heading:has(#Further_reading), div.mw-heading:has(#Further_reading) ~*
-en.wikipedia.org##h2:has(#External_links), h2:has(#External_links) ~*, h3:has(#External_links), h2:has(#External_links) ~*, div.mw-heading:has(#External_links), div.mw-heading:has(#External_links) ~*
+!en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#See_also)
+!en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#See_also) ~*
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Notes)
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Notes) ~*
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#References)
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#References) ~*
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Notes_and_references)
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Notes_and_references) ~*
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Citations)
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Citations) ~*
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#General_and_cited_references)
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#General_and_cited_references) ~*
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Footnotes)
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Footnotes) ~*
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Further_reading)
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Further_reading) ~*
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#External_links)
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#External_links) ~*
 ! TODO: some articles about historical figures have a "Sources" section.
-en.wikipedia.org##h2:has(#Sources), h2:has(#Sources) ~*, h3:has(#Sources), h3:has(#Sources) ~*, div.mw-heading:has(#Sources), div.mw-heading:has(#Sources) ~*
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Sources)
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Sources) ~*
 ! TODO: some articles about authors have a "Bibliography" section
-en.wikipedia.org##h2:has(#Bibliography), h2:has(#Bibliography) ~*, h3:has(#Bibliography), h3:has(#Bibliography) ~*, div.mw-heading:has(#Bibliography), div.mw-heading:has(#Bibliography) ~*
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Bibliography)
+en.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Bibliography) ~*
+
+! Spanish
+es.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Referencias)
+es.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Referencias) ~*
+es.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Notas_y_referencias)
+es.wikipedia.org##:is(h2, h3, div.mw-heading):has(#Notas_y_referencias) ~*
 
 ! correct color when scrolling past end of page
 wikipedia.org##html:style(background-color: white !important;)
