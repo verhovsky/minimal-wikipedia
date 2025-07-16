@@ -94,6 +94,8 @@ wikipedia.org###sister-projects-list
 
 ! [V T E]
 wikipedia.org##div.navbar.plainlinks.hlist.navbar-mini
+! [Edit on Wikidata] and other links
+wikipedia.org##.noprint:not(.rellink):not(.ForceAgeToShow)
 
 ! [example needed]
 wikipedia.org##.Inline-Template.noprint
