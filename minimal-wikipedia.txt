@@ -118,6 +118,9 @@ wikipedia.org##.mwe-popups footer
 wikipedia.org##.mwe-popups .mwe-popups-extract:style(margin-bottom: 16px !important)
 ! It's 215 by 176 and ideally removing the gear would let us set it to 215 by 215 but it causes gaps after the preview image, so one less line (20) + 1 extra pixel since 176 seems to have it
 wikipedia.org##.mwe-popups.mwe-popups-is-tall .mwe-popups-extract:style(height: 196px !important;)
+! Whitespace when preview is empty with a "there was a problem displaying this preview" error
+! Happens when internet is turned off after loading the page
+wikipedia.org##.mwe-popups span.popups-icon.popups-icon--preview-generic
 
 ! Make red links normal color and un-clickable
 ! This doesn't work perfectly, you can't start selecting text on a red link
