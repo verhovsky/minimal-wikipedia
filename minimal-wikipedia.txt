@@ -106,6 +106,8 @@ wikipedia.org##.Inline-Template.noprint
 
 ! "[fullscreen map]"
 wikipedia.org##.mw-kartographer-link.mw-kartographer-maplink
+! Copyright OpenStreetMap
+en.wikipedia.org##.mw-kartographer-attribution
 
 ! Copies of article title
 wikipedia.org##.infobox-above
